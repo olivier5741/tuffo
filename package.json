@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup --config",
+    "build": "npm run lint && npm run test && npm run clean && rollup --config",
     "deploy": "clasp push",
     "lint": "eslint . --ext .ts",
-    "test": "jest"
+    "test": "jest",
+    "clean": "rm -rf ./build && mkdir build"
   },
   "author": "",
   "license": "ISC",

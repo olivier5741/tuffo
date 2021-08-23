@@ -8,6 +8,6 @@ const logTime = () => {
 
 import * as m1 from './module1'
 
-function start(){
-  return m1.test()
+function start(){// eslint-disable-line
+  return m1.test1()
 }

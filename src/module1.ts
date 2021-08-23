@@ -1,4 +1,4 @@
-export function test() : void{
+export function test1() : void{
     SpreadsheetApp.getCurrentCell().setValue("test");
     return
 }

@@ -8,10 +8,6 @@ const logTime = () => {
 
 import * as m1 from './module1'
 
-function test(){
-  
-}
-
 function start(){
   return m1.test()
 }

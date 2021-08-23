@@ -1,5 +1,6 @@
-export function test(){
+export function test() : void{
     SpreadsheetApp.getCurrentCell().setValue("test");
+    return;
 }
 
-export const myPublicKey: string = "Public"; 
+export const myPublicKey = "Public"; 

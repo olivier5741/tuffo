@@ -1,15 +1,23 @@
 {
   "timeZone": "Europe/Brussels",
   "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Drive",
+        "version": "v2",
+        "serviceId": "drive"
+      }
+    ]
   },
   "exceptionLogging": "STACKDRIVER",
   "oauthScopes": [
-    "https://www.googleapis.com/auth/drive.file"
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/spreadsheets.currentonly"
   ],
   "runtimeVersion": "V8",
   "addOns": {
     "common": {
-      "name": "Billy ERP",
+      "name": "Tuffo",
       "logoUrl": "https://drive.google.com/uc?id=1t5FJdO088gXKem_P_IR2aFk9v671DYko",
       "layoutProperties": {
         "primaryColor": "#3cafce"

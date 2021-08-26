@@ -1,8 +1,26 @@
 {
-  "timeZone": "Europe/Stockholm",
+  "timeZone": "Europe/Brussels",
   "dependencies": {
   },
   "exceptionLogging": "STACKDRIVER",
-  "oauthScopes": [],
-  "runtimeVersion": "V8"
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/drive.file"
+  ],
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Billy ERP",
+      "logoUrl": "https://drive.google.com/uc?id=1t5FJdO088gXKem_P_IR2aFk9v671DYko",
+      "layoutProperties": {
+        "primaryColor": "#3cafce"
+      },
+      "homepageTrigger": {
+        "runFunction": "buildHomePage"
+      }
+    },
+    "sheets": {
+    },
+    "gmail": {
+    }
+  }
 }
